@@ -13,7 +13,6 @@ public class Task37 {
         int x2 = in.nextInt();
         System.out.print("y2=");
         int y2 = in.nextInt();
-
         boolean t = (abs(x - x2) <= 1) && (abs(y - y2) <= 1);
         System.out.println(t);
     }

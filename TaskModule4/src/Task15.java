@@ -9,20 +9,44 @@ public class Task15 {
         int b = in.nextInt();
         System.out.print("C=");
         int c = in.nextInt();
-        int sum = 0;
+
         if (a > b && a > c) {
-            sum = +a;
-            if (b > c) sum = +b;
-            else sum = +c;
-        } else if (b > a && b > c) {
-            sum = +b;
-            if (a > c) sum = +a;
-            else sum = +c;
-        } else if (c > b && c > a) {
-            sum = +c;
-            if (b > a) sum = +b;
-            else sum = +a;
+            System.out.print(a+" ");
+            if(b>c) System.out.println(b);
+            else System.out.println(c);
         }
-        System.out.println(sum);
+        if (b > a && b > c) {
+            System.out.print(b+" ");
+            if(a>c) System.out.println(a);
+            else System.out.println(c);
+        }
+        if (c > b && c > a) {
+            System.out.print(c+" ");
+            if(b>a) System.out.println(b);
+            else System.out.println(a);
+        }
+
+        /*if (a > b && a > c) {
+            if (b > c) {
+                sum = a + b;
+            } else {
+                sum = a+c;
+            }
+        } else if (b > a && b > c) {
+            if (a > c) {
+                sum = b+a;
+            } else {
+                sum = b+c;
+            }
+        } else if (c > b && c > a) {
+            if (b > a) {
+                sum = c+b;
+            } else {
+                sum = c+a;
+            }
+        }
+        //System.out.println(sum);
+*/
+
     }
 }

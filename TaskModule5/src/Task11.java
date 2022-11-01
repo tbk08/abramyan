@@ -48,7 +48,7 @@ public class Task11 {
                 }
                 break;
             case "Þ":
-                switch (n1 + n2) {
+                switch (n1 +  n2) {
                     case 0:
                     case 4:
                         System.out.println("Þ");

@@ -7,7 +7,7 @@ public class Task34 {
         int x = in.nextInt();
         System.out.print("y=");
         int y = in.nextInt();
-        boolean t = (x + y) % 2 != 0;
+        boolean t = (x + y) % 2 == 0;
         System.out.println(t);
     }
 }

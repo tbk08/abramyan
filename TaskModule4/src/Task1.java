@@ -9,6 +9,7 @@ public class Task1 {
             n++;
             System.out.println(n);
         }
-        else System.out.println(n);
+        else if(n<0) System.out.println(n);
+        else  System.out.println(n);
     }
 }
