@@ -7,7 +7,7 @@ public class Task39 {
         int a = in.nextInt();
         System.out.print("B=");
         int b = in.nextInt();
-        for (int i = a; i <=b; i++) {//1
+        for (int i = a; i <=b; i++) {
             for (int j = 1; j <=i; j++) {
                 System.out.print(i);
             }
