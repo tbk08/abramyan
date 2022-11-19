@@ -11,15 +11,15 @@ public class Array17 {
             a[i] = in.nextInt();
         }
         for (int i = 0; i < n / 2 + 1; i += 2) {
-            System.out.println("a[" + i + "]=" + a[i]);
+            System.out.println(a[i]);
             if (i < n / 2){
-                System.out.println("a[" + i + "]=" + a[i+1]);
+                System.out.println(a[i+1]);
             }
             if (n - i - 1 > n / 2) {
-                System.out.println("a[" + i + "]=" + a[n - i - 1]);
+                System.out.println(a[n - i - 1]);
             }
             if (n - i - 2 > n / 2) {
-                System.out.println("a[" + i + "]=" + a[n - i - 2]);
+                System.out.println(a[n - i - 2]);
             }
         }
     }

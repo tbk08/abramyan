@@ -6,24 +6,23 @@ public class Array26 {
         System.out.print("N=");
         int n = in.nextInt();
         int a[] = new int[n];
-
         for (int i = 0; i < a.length; i++) {
             System.out.print("a[" + i + "]=");
             a[i] = in.nextInt();
         }
+
         int k = n;
         for (int i = 1; i < a.length; i++) {
-            if ((a[i-1] % 2) != (a[i] % 2)) {
+            if ((a[i - 1] % 2) != (a[i] % 2)) {
                 k--;
-            }
-            else {
-                System.out.println("a["+i+"]="+a[i]);
+            } else {
+                System.out.println("a[" + i + "]=" + a[i]);
+                break;
             }
         }
 
         if (k == 1) {
             System.out.println(0);
         }
-
     }
 }

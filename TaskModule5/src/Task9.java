@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Task9 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.print("D=");
+        System.out.print("D=");//28
         int d = in.nextInt();
-        System.out.print("M=");
+        System.out.print("M=");//2
         int m = in.nextInt();
 
         switch (m) {

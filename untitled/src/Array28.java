@@ -1,21 +1,22 @@
 import java.util.Scanner;
 
-public class Array16 {
+public class Array28 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("N=");
         int n = in.nextInt();
-        int a[] = new int[n];
-        for (int i = 0; i < n; i++) {
+        int a[]=new int[n];
+        for (int i = 0; i < a.length; i++) {
             System.out.print("a[" + i + "]=");
             a[i] = in.nextInt();
         }
 
-        for (int i = 0; i < a.length/2; i++) {
-            System.out.println(a[i]);
-            System.out.println(a[n-i-1]);
+        int min=a[1];
+        for (int i = 4; i < a.length; i+=2) {
+            if(min>a[i]){
+                min=a[i];
+            }
         }
-        if (n%2 != 0 ) System.out.println(a[n/2]);
-
+        System.out.println(min);
     }
 }

@@ -3,14 +3,13 @@ import java.util.Scanner;
 public class Task8 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.print("D=");
+        System.out.print("D=");//d=1
         int d = in.nextInt();
-        System.out.print("M=");
+        System.out.print("M=");//m=9
         int m = in.nextInt();
-        d = d - 1;
+        d = d - 1;//d=1-1=0
         if (d == 0) {
-            d = 1;
-            m = m - 1;
+            m = m - 1;//,=9-1=8
             if (m == 0) {
                 m = 12;
             }
@@ -35,6 +34,7 @@ public class Task8 {
                     break;
             }
         }
+        //d=31 m = 8
         System.out.println("D=" + d + " M=" + m);
     }
 }
