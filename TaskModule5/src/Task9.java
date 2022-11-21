@@ -38,7 +38,7 @@ public class Task9 {
                 }
                 break;
             case 2:
-                if (d < 28) {
+                if ( d < 28) {
                     d++;
                 } else if (d == 28) {
                     m++;
