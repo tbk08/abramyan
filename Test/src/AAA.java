@@ -3,26 +3,13 @@ import java.util.Scanner;
 public class AAA {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.print("Side");
-        String s = in.nextLine();
         System.out.print("N=");
-        int n=in.nextInt();
+        int n = in.nextInt();
+        System.out.print("K=");
+        int k = in.nextInt();
 
-        switch (s.charAt(0)){
-            case 'N':
-                if(n==1){
-                    System.out.println("W");
-                } else if (n==-1) {
-                    System.out.println("E");
-                } else if (n==0) {
-                    System.out.println("N");
-                }
-                break;
-
-            case 'W':
-                if(n==1){
-                    System.out.println("S ");
-                }
+        for (int i=0; i<n; i++){
+            System.out.println(k);
         }
     }
 }

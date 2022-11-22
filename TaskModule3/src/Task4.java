@@ -7,7 +7,7 @@ public class Task4 {
         int a = in.nextInt();
         System.out.print("B=");
         int b = in.nextInt();
-        boolean x = a>2&&b<=3;
+        boolean x = a > 2 && b <= 3;
         System.out.println(x);
     }
 }
